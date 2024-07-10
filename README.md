@@ -4,6 +4,7 @@ This project provides a solution for managing temporary access to AWS VPC Securi
 
 ## How it work
 
+```text
 User -> API Gateway (/allow_access) -> AWS Cognito (JWT) -> Lambda (allow_access)
    |                                                                |
    |                                                                V
@@ -12,6 +13,7 @@ User -> API Gateway (/allow_access) -> AWS Cognito (JWT) -> Lambda (allow_access
    +------------------------------------------------------> AWS CloudWatch (logs)
                                                               |
    +------------------------------------------------------> AWS EventBridge (schedule IP removal)
+```
 
 
 ## TODOs
