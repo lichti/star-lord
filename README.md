@@ -25,6 +25,7 @@ User -> API Gateway (/allow_access) -> AWS Cognito (JWT) -> Lambda (allow_access
 - [] Add support for IPV6
 - [] Add user in the Description field
 - [] Improve IAM functions
+- [] Add group support
 
 ## Key Features
 
