@@ -32,3 +32,15 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+.terraform.lock.hcl
+tfplan
+
+*.zip
+allow_access/
+revoke_access/
+oauth_callback/
+
+venv/
+tmp.sh
+
